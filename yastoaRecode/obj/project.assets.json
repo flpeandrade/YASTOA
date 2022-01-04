@@ -6232,19 +6232,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\REMAKKER\\.nuget\\packages\\": {}
+    "C:\\Users\\saral\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\REMAKKER\\source\\repos\\yastoaRecode\\yastoaRecode\\yastoaRecode.csproj",
+      "projectUniqueName": "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
       "projectName": "yastoaRecode",
-      "projectPath": "C:\\Users\\REMAKKER\\source\\repos\\yastoaRecode\\yastoaRecode\\yastoaRecode.csproj",
-      "packagesPath": "C:\\Users\\REMAKKER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\REMAKKER\\source\\repos\\yastoaRecode\\yastoaRecode\\obj\\",
+      "projectPath": "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
+      "packagesPath": "C:\\Users\\saral\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\REMAKKER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\saral\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
