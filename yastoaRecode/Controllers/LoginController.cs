@@ -4,11 +4,18 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using yastoaRecode.Models.Login;
 
 namespace yastoaRecode.Controllers
 {
     public class LoginController : Controller
     {
+        private readonly LoginContext _Context;
+        public LoginController(LoginContext context)
+        {
+            _Context = context;
+        }
+
         // GET: LoginController
         public ActionResult Login()
         {
@@ -22,66 +29,26 @@ namespace yastoaRecode.Controllers
         }
 
         // GET: LoginController/Create
-        public ActionResult Create()
+        public ActionResult Cadastrar()
         {
             return View();
         }
 
         // POST: LoginController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Cadastrar(Login login)
         {
-            try
+            if(_Context == null)
             {
-                return RedirectToAction(nameof(Index));
+                return NotFound("Cadastro");
             }
-            catch
-            {
-                return View();
-            }
+
+            _Context.Add(login);
+            _Context.SaveChanges();
+
+            return RedirectToAction("Login");
         }
 
-        // GET: LoginController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: LoginController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: LoginController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: LoginController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+       
     }
 }

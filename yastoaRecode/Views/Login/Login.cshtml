@@ -1,7 +1,36 @@
 ﻿
 @{
-    ViewData["Title"] = "Login";
+    ViewData["Title"] = "LOGIN";
 }
 
-<h1>Login</h1>
+<body class="text-center">
+    <main class="form-signin">
+        <form class="box">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                </svg>
+            </div>
+            <h1 class="h3 mb-2 fw-normal text-center">@ViewData["Title"]</h1>
+            <div>
+                <input type="email" id="floatingInput" placeholder="Digite seu email">
+            </div>
+            <div>
+                <input type="password" id="floatingPassword" placeholder="Digite sua senha">
+            </div>
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me">Lembrar-me
+                </label>
+            </div>
+            <div>
+                <button class="btn btn-lg btn-primary" type="submit">Entrar</button>
+            </div>
+            <div>
+                <a asp-action="Cadastrar">Cadastrar</a>
+            </div>
+        </form>
+    </main>
+</body>
 
