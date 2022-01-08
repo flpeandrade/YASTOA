@@ -23,9 +23,10 @@ namespace yastoaRecode.Controllers
         }
 
         // GET: LoginController/Details/5
-        public ActionResult Details(int id)
+        public IActionResult Perfil()
         {
-            return View();
+            var perfil = _Context.Logins.ToList();
+            return View(perfil);
         }
 
         // GET: LoginController/Create
@@ -49,6 +50,75 @@ namespace yastoaRecode.Controllers
             return RedirectToAction("Login");
         }
 
-       
+        public IActionResult EditConta(int id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var login = _Context.Logins.SingleOrDefault(a => a.ID == id);
+
+            if (login == null)
+            {
+                return NotFound();
+            }
+            return View(login);
+        }
+        [HttpPost]
+        public IActionResult EditConta(int id, Login login)
+        {
+            if (id != login.ID)
+            {
+                return NotFound();
+            }
+            if (ModelState.IsValid)
+            {
+                _Context.Update(login);
+                _Context.SaveChanges();
+
+                return RedirectToAction("Login");
+            }
+            return View(login);
+        }
+        public IActionResult DeleteConta(int id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var conta = _Context.Logins.SingleOrDefault(a => a.ID == id);
+
+            if (conta == null)
+            {
+                return NotFound();
+            }
+            return View(conta);
+        }
+        [HttpPost, ActionName("DeleteConta")]
+        public IActionResult Delet(int id)
+        {
+            var conta = _Context.Logins.SingleOrDefault(a => a.ID == id);
+            if (conta == null)
+            {
+                return NotFound();
+            }
+            _Context.Logins.Remove(conta);
+            _Context.SaveChanges();
+            return RedirectToAction("Login");
+        }
+        public IActionResult DetailsPerfil(int id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var Det = _Context.Logins.SingleOrDefault(a => a.ID == id);
+            if (Det == null)
+            {
+                return NotFound();
+            }
+            return View(Det);
+        }
+
     }
 }

@@ -1,4 +1,4 @@
-﻿
+﻿@model yastoaRecode.Models.Login.Login
 @{
     ViewData["Title"] = "LOGIN";
 }
@@ -25,10 +25,10 @@
                 </label>
             </div>
             <div>
-                <button class="btn btn-lg btn-primary" type="submit">Entrar</button>
+                <input class="btn btn-lg btn-primary" type="submit" value="Entrar" asp-action="Perfil" />
             </div>
             <div>
-                <a asp-action="Cadastrar">Cadastrar</a>
+                <a class="btn btn-lg btn-primary" asp-action="Cadastrar">Cadastrar</a>
             </div>
         </form>
     </main>
