@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Remakker\\Desktop\\YASTOA\\yastoaRecode\\yastoaRecode.csproj": {}
+    "C:\\Users\\REMAKKER\\Downloads\\Nova pasta\\YASTOA\\yastoaRecode\\yastoaRecode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Remakker\\Desktop\\YASTOA\\yastoaRecode\\yastoaRecode.csproj": {
+    "C:\\Users\\REMAKKER\\Downloads\\Nova pasta\\YASTOA\\yastoaRecode\\yastoaRecode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Remakker\\Desktop\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
+        "projectUniqueName": "C:\\Users\\REMAKKER\\Downloads\\Nova pasta\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
         "projectName": "yastoaRecode",
-        "projectPath": "C:\\Users\\Remakker\\Desktop\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
-        "packagesPath": "C:\\Users\\Remakker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Remakker\\Desktop\\YASTOA\\yastoaRecode\\obj\\",
+        "projectPath": "C:\\Users\\REMAKKER\\Downloads\\Nova pasta\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
+        "packagesPath": "C:\\Users\\REMAKKER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\REMAKKER\\Downloads\\Nova pasta\\YASTOA\\yastoaRecode\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Remakker\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\REMAKKER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
