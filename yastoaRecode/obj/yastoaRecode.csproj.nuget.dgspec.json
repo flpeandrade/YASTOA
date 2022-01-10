@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Remakker\\Desktop\\YASTOA\\yastoaRecode\\yastoaRecode.csproj": {}
+    "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Remakker\\Desktop\\YASTOA\\yastoaRecode\\yastoaRecode.csproj": {
+    "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Remakker\\Desktop\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
+        "projectUniqueName": "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
         "projectName": "yastoaRecode",
-        "projectPath": "C:\\Users\\Remakker\\Desktop\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
-        "packagesPath": "C:\\Users\\Remakker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Remakker\\Desktop\\YASTOA\\yastoaRecode\\obj\\",
+        "projectPath": "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
+        "packagesPath": "C:\\Users\\saral\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Remakker\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\saral\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,15 +40,23 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.8, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.8, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.SqlServer.SqlManagementObjects": {
               "target": "Package",

@@ -78,49 +78,6 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-/*Formatação do Login*/
-.box {
-    padding: 40px;
-    position: relative;
-    left: 20px;
-    text-align: center;
-    border-radius: 12px;
-}
-
-    .box div > input[type="email"], input[type="password"]{
-        border: 0;
-        background: none;
-        display: block;
-        margin: 10px auto;
-        text-align: center;
-        border: 2px solid black;
-        padding: 12px 40px;
-        border-radius: 24px;
-        transition: 0.25s;
-        cursor: pointer;
-        font-size: 1em;
-        color: black;
-    }
-    .box div > button{
-        border-radius: 24px;
-    }
-    .Cad {
-    margin-top:5px;
-    padding-top: 5px;
-    padding: 60px;
-    padding-left: 1px;
-    position: relative;
-    left: 35%;
-    text-align: left;
-    border-radius: 24px;
-    }
-    .Cad form > input, button {
-        border-radius: 24px;
-        transition: 0.25s;
-        cursor: pointer;
-        font-size: 1em;
-    }
-
 /*Formatação Contato*/
 
 .wrapper {
@@ -193,7 +150,6 @@ body {
 button,
 select {
     outline: none;
-    appearance: none;
     -webkit-appearance: none;
 }
 

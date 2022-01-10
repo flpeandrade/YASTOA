@@ -9,7 +9,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using yastoaRecode.Models.Login;
 
 namespace yastoaRecode
 {
@@ -26,8 +25,7 @@ namespace yastoaRecode
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<LoginContext>(opt =>
-               opt.UseSqlServer(Configuration.GetConnectionString("Context")));
+            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,6 +46,7 @@ namespace yastoaRecode
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -55,6 +54,8 @@ namespace yastoaRecode
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapRazorPages();
             });
         }
     }
