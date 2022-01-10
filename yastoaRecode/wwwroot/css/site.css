@@ -151,7 +151,6 @@ body {
 /* Home Page */
 
 #hero {
-    background-image: url("bannerp.jpg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -162,6 +161,19 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+   #hero img {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 800ms;
+    }
+
+    #hero img.ativo {
+        opacity: 1;
+    }
 
 
     #hero h1 {
