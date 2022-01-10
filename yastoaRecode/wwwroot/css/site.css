@@ -8,7 +8,19 @@
     box-sizing: border-box;
     font-family: 'Spartan', sans-serif;
 }
-
+ul, li{
+    list-style: none;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    justify-items:center;
+    align-items:center;
+    text-align: left;
+}
+.box i{
+    text-align: center;
+}
 h1 {
     font-size: 50px;
     line-height: 64px;

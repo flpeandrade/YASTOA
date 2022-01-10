@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj": {}
+    "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\YastoaRecode.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj": {
+    "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\YastoaRecode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
-        "projectName": "yastoaRecode",
-        "projectPath": "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
+        "projectUniqueName": "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\YastoaRecode.csproj",
+        "projectName": "YastoaRecode",
+        "projectPath": "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\YastoaRecode.csproj",
         "packagesPath": "C:\\Users\\saral\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\obj\\",
+        "outputPath": "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\saral\\AppData\\Roaming\\NuGet\\NuGet.Config",

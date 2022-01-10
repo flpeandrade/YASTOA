@@ -6287,11 +6287,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
+      "projectUniqueName": "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
       "projectName": "yastoaRecode",
-      "projectPath": "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
+      "projectPath": "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
       "packagesPath": "C:\\Users\\saral\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\obj\\",
+      "outputPath": "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\saral\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6368,13 +6368,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

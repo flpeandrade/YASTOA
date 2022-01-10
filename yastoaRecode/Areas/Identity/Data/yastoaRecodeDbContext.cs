@@ -9,9 +9,9 @@ using yastoaRecode.Areas.Identity.Data;
 
 namespace yastoaRecode.Data
 {
-    public class yastoaRecodeDbContext : IdentityDbContext<AplicationUser>
+    public class YastoaRecodeDbContext : IdentityDbContext<AplicationUser>
     {
-        public yastoaRecodeDbContext(DbContextOptions<yastoaRecodeDbContext> options)
+        public YastoaRecodeDbContext(DbContextOptions<YastoaRecodeDbContext> options)
             : base(options)
         {
         }

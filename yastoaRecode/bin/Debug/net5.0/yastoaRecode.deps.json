@@ -31,7 +31,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "yastoaRecode/1.0.0": {
+      "YastoaRecode/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.12",
           "Microsoft.AspNetCore.Identity.UI": "5.0.12",
@@ -317,10 +317,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "yastoaRecode.dll": {}
+          "YastoaRecode.dll": {}
         },
         "compile": {
-          "yastoaRecode.dll": {}
+          "YastoaRecode.dll": {}
         }
       },
       "Azure.Core/1.6.0": {
@@ -3544,7 +3544,7 @@
     }
   },
   "libraries": {
-    "yastoaRecode/1.0.0": {
+    "YastoaRecode/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

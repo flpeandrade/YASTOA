@@ -9,9 +9,9 @@ using yastoaRecode.Data;
 
 namespace yastoaRecode.Migrations
 {
-    [DbContext(typeof(yastoaRecodeDbContext))]
-    [Migration("20220110021417_Criação")]
-    partial class Criação
+    [DbContext(typeof(YastoaRecodeDbContext))]
+    [Migration("20220110043802_inicio")]
+    partial class Inicio
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -16,7 +16,7 @@ namespace yastoaRecode.Areas.Identity
         public void Configure(IWebHostBuilder builder)
         {
             builder.ConfigureServices((context, services) => {
-                services.AddDbContext<yastoaRecodeDbContext>(options =>
+                services.AddDbContext<YastoaRecodeDbContext>(options =>
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("yastoaRecodeDbContextConnection")));
 
@@ -25,7 +25,7 @@ namespace yastoaRecode.Areas.Identity
                     options.Password.RequireLowercase = false;
                     options.Password.RequireUppercase = false;
                 })
-                    .AddEntityFrameworkStores<yastoaRecodeDbContext>();
+                    .AddEntityFrameworkStores<YastoaRecodeDbContext>();
             });
         }
     }

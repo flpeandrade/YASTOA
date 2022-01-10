@@ -8,7 +8,7 @@ using yastoaRecode.Data;
 
 namespace yastoaRecode.Migrations
 {
-    [DbContext(typeof(yastoaRecodeDbContext))]
+    [DbContext(typeof(YastoaRecodeDbContext))]
     partial class yastoaRecodeDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

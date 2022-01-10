@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5ueEtxJoHiyaOf1JjpQbjipAGEep1Qb1kFV4J+2SKAy8PfJSBg9mKl226vWKb3mwleLQp7KUSU0u6yGTjJNJYg==",
+  "dgSpecHash": "Igw1qq56QWGHhjzTdmvsXjFuO57IHAaQYw0LfInY+/FyLhoBew/zDnLZdF8Byv5i6IuwFt3ZlWgA7/syPuYd3w==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
+  "projectFilePath": "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\YastoaRecode.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saral\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\saral\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
@@ -122,12 +122,5 @@
     "C:\\Users\\saral\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\saral\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Projetos\\ProjectIndígenas\\YASTOA\\yastoaRecode\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
