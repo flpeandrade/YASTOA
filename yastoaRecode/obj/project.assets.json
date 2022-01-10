@@ -6287,9 +6287,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
-      "projectName": "yastoaRecode",
-      "projectPath": "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\yastoaRecode.csproj",
+      "projectUniqueName": "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\YastoaRecode.csproj",
+      "projectName": "YastoaRecode",
+      "projectPath": "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\YastoaRecode.csproj",
       "packagesPath": "C:\\Users\\saral\\.nuget\\packages\\",
       "outputPath": "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\obj\\",
       "projectStyle": "PackageReference",
