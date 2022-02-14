@@ -17,8 +17,7 @@ namespace yastoaRecode.Areas.Identity
         {
             builder.ConfigureServices((context, services) => {
                 services.AddDbContext<YastoaRecodeDbContext>(options =>
-                    options.UseSqlServer(
-                        context.Configuration.GetConnectionString("yastoaRecodeDbContextConnection")));
+                    options.UseSqlServer(context.Configuration.GetConnectionString("Context")));
 
                 services.AddDefaultIdentity<AplicationUser>(options => {
                     options.SignIn.RequireConfirmedAccount = false;

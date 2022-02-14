@@ -59,7 +59,7 @@
 
         <div class="col">
             <h4>Sobre</h4>
-            <a href="#">Sobre nós</a>
+            <a asp-action="Sobre" asp-controller="Home">Sobre nós</a>
             <a href="#">Entrega de informação</a>
             <a href="#">Política de privacidade</a>
             <a href="#">Termos & Condições</a>
@@ -68,8 +68,8 @@
 
         <div class="col">
             <h4>Minha conta</h4>
-            <a href="#">Login</a>
-            <a href="#">Ver Carrinho</a>
+            <a href="#"><partial name="_LoginPartial.cshtml"></a>
+            <a asp-action="Carrinho" asp-controller="">Ver Carrinho</a>
             <a href="#">Lista de desejo</a>
             <a href="#">Pedidos</a>
             <a href="#">Ajuda</a>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NHk4IaKcho795vfU82n3l1AIRd0DgeFzXpN2YY6Vjx+4stFfCeBhwqT+mspm9AHEW/EoimylZTz9ThHiJwh3fA==",
+  "dgSpecHash": "+ZbY2nuo7GJSagQjGBAQwf2mr7wzvCMyuZwkbHlG0fDOBqtdonDEHXCWeY8ovGo8iZJsqMSiMPO9p9kdDVS38A==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\ProjectIndigenas\\YASTOA\\yastoaRecode\\YastoaRecode.csproj",
+  "projectFilePath": "D:\\Projetos\\ProjectIndigenas\\Yastoa\\YASTOA\\yastoaRecode\\YastoaRecode.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saral\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\saral\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
