@@ -467,3 +467,4 @@ D:\Projetos\ProjectIndigenas\Yastoa\YASTOA\yastoaRecode\obj\Release\net5.0\ref\Y
 D:\Projetos\ProjectIndigenas\Yastoa\YASTOA\yastoaRecode\obj\Release\net5.0\YastoaRecode.pdb
 D:\Projetos\ProjectIndigenas\Yastoa\YASTOA\yastoaRecode\obj\Release\net5.0\YastoaRecode.genruntimeconfig.cache
 D:\Projetos\ProjectIndigenas\Yastoa\YASTOA\yastoaRecode\obj\Release\net5.0\Razor\Views\Home\Sobre.cshtml.g.cs
+D:\Projetos\ProjectIndigenas\Yastoa\YASTOA\yastoaRecode\obj\Release\net5.0\Razor\Views\Home\Blog.cshtml.g.cs

@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YASTOA</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -14,14 +15,31 @@
             <ul id="navbar">
                 <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                 <li><a asp-area="" asp-controller="Produto" asp-action="Produtos">Produtos</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Blog">Blog</a></li>
                 <li><a asp-area="" asp-controller="Home" asp-action="Contatos">Contatos</a></li>
                 <partial name="_LoginPartial.cshtml" />
-                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <li id="lg-bag"><a id="lg-bag"><i class="far fa-shopping-bag"></i></a></li>
             </ul>
-        </div>
-        <div id="mobile">
-            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
-            <i id="bar" class="fas fa-outdent"></i>
+            <div class="cart">
+                <h2 class="cart-title">Meu Carrinho</h2>
+
+                <div class="cart-content">
+
+                </div>
+
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">R$0</div>
+                </div>
+
+                <button type="button" class="btn1">Comprar</button>
+
+                <i class="bx bx-x" id="close-cart"></i>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
         </div>
     </section>
     <div class="container">
@@ -69,7 +87,7 @@
         <div class="col">
             <h4>Minha conta</h4>
             <a href="#"><partial name="_LoginPartial.cshtml"></a>
-            <a asp-action="Carrinho" asp-controller="">Ver Carrinho</a>
+            <a href="#">Ver Carrinho</a>
             <a href="#">Lista de desejo</a>
             <a href="#">Pedidos</a>
             <a href="#">Ajuda</a>
@@ -97,4 +115,3 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
-

@@ -14,7 +14,6 @@ namespace yastoaRecode.Controllers
         {
             return View();
         }
-
         // GET: Produtos/Details/5
         public ActionResult Details(int id)
         {
