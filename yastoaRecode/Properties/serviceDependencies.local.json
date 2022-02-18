@@ -1,16 +1,7 @@
 {
   "dependencies": {
     "secrets1": {
-      "resourceId": null,
-      "type": "secrets.user",
-      "connectionId": null,
-      "secretStore": null
-    },
-    "mssql1": {
-      "resourceId": null,
-      "type": "mssql.local",
-      "connectionId": "ConnectionStrings:yastoaRecodeDbContextConnection",
-      "secretStore": "LocalSecretsFile"
+      "type": "secrets.user"
     }
   }
 }

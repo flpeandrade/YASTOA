@@ -1,38 +1,4 @@
 {
-  "dependencies": {
-    "signalr1": {
-      "restored": true,
-      "restoreTime": "2022-01-11T00:38:35.2912883Z"
-    },
-    "mssql2": {
-      "restored": true,
-      "restoreTime": "2022-02-13T22:39:24.3983931Z"
-    },
-    "mssql1": {
-      "restored": true,
-      "restoreTime": "2022-01-10T23:59:22.5728116Z"
-    }
-  },
-  "parameters": {
-    "signalr1.resourceGroupName": {
-      "Name": "signalr1.resourceGroupName",
-      "Type": "resourceGroup",
-      "Value": "cloud-shell-storage-eastus"
-    },
-    "mssql1.subscriptionId": {
-      "Name": "mssql1.subscriptionId",
-      "Type": "subscription",
-      "Value": "eae3969d-ad05-40eb-a14a-77d3fa962277"
-    },
-    "mssql1.resourceGroupName": {
-      "Name": "mssql1.resourceGroupName",
-      "Type": "resourceGroup",
-      "Value": "cloud-shell-storage-eastus"
-    },
-    "signalr1.subscriptionId": {
-      "Name": "signalr1.subscriptionId",
-      "Type": "subscription",
-      "Value": "eae3969d-ad05-40eb-a14a-77d3fa962277"
-    }
-  }
+  "dependencies": {},
+  "parameters": {}
 }

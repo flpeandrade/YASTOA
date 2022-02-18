@@ -1,20 +1,15 @@
 {
   "dependencies": {
-    "secrets1": {
-      "type": "secrets",
-      "connectionId": null
-    },
     "mssql1": {
       "type": "mssql",
-      "connectionId": "ConnectionStrings:yastoaRecodeDbContextConnection"
+      "connectionId": "ConnectionStringsConnect"
     },
     "signalr1": {
       "type": "signalr",
       "connectionId": "Azure__SignalR__ConnectionString"
     },
-    "mssql2": {
-      "type": "mssql",
-      "connectionId": "ConnectionStrings:Context"
+    "secrets1": {
+      "type": "secrets"
     }
   }
 }
