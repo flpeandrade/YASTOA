@@ -26,12 +26,12 @@
                 <div class="cart-content">
 
                 </div>
-
+               
                 <div class="total">
-                    <div class="total-title">Total</div>
-                    <div class="total-price">R$0</div>
+                        <div class="total-title">Total</div>
+                        <div class="total-price">R$0</div>
                 </div>
-
+              
                 <button type="button" class="btn1">Comprar</button>
 
                 <i class="bx bx-x" id="close-cart"></i>
@@ -42,7 +42,7 @@
             </div>
         </div>
     </section>
-    <div class="container">
+    <div>
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -54,7 +54,7 @@
         </div>
         <div class="form">
             <input type="text" placeholder="Seu endereço de e-mail">
-            <button class="button.normal">Increver-se</button>
+            <button class="button normal">Increver-se</button>
         </div>
     </section>
     <footer class="section-p1">
@@ -110,7 +110,6 @@
     </footer>
     <script src="~/js/site.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

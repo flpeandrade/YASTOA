@@ -4,6 +4,8 @@ const nav = document.getElementById('navbar');
 let cartIcon = document.querySelector("#lg-bag");
 let cart = document.querySelector(".cart");
 let closeCart = document.querySelector("#close-cart");
+var MainImg = document.getElementById("MainImg");
+var smallimg = document.getElementsByClassName("small-img");
 
 let time = 5000,
     currentImageIndex = 0,
@@ -156,3 +158,16 @@ function start() {
 }
 
 window.addEventListener("load", start)
+
+smallimg[0].onclick = function () {
+    MainImg.src = smallimg[0].src;
+}
+smallimg[1].onclick = function () {
+    MainImg.src = smallimg[1].src;
+}
+smallimg[2].onclick = function () {
+    MainImg.src = smallimg[2].src;
+}
+smallimg[3].onclick = function () {
+    MainImg.src = smallimg[3].src;
+}
